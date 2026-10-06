@@ -16,9 +16,9 @@ jobs:
           node-version: '20'
       # Pick your own package manager and build script
       - run: npm install
-      - run: npx slidev build --base /v_tokyo20/ && npx tsx script/og.ts
+      - run: npx slidev build --base /v_tokyo_fec_collaboration/ && npx tsx script/og.ts
       - run: cp -r ./img ./dist
-      - run: rsync -ahv ./dist/* ./dist/v_tokyo20 --exclude './dist/v_tokyo20'
+      - run: rsync -ahv ./dist/* ./dist/v_tokyo_fec_collaboration --exclude './dist/v_tokyo_fec_collaboration'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
