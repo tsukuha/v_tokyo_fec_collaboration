@@ -18,23 +18,23 @@ const OG_META = [
   },
   {
     name: "twitter:title",
-    content: "What is vuejs/language-tools?",
+    content: "Nuxtカスタムディレクティブにより堅牢な権限管理を実現する",
   },
   {
     name: "twitter:description",
-    content: "Vue.js v-tokyo Meetup #20 (May. 28th 2024)",
+    content: "#v_tokyo_fec_collaboration",
   },
   {
     name: "twitter:image",
-    content: "https://tsukuha.github.io/v_tokyo20/img/v_tokyo.png",
+    content: "https://tsukuha.github.io/v_tokyo_fec_collaboration/img/v_tokyo.png",
   },
   {
     name: "og:url", 
-    content: "https://tsukuha.github.io/v_tokyo20",
+    content: "https://tsukuha.github.io/v_tokyo_fec_collaboration",
   },
   {
     name: "og:title",
-    content: "What is vuejs/language-tools?",
+    content: "Nuxtカスタムディレクティブにより堅牢な権限管理を実現する",
   },
   {
     name: "og:description",
@@ -42,7 +42,7 @@ const OG_META = [
   },
   {
     name: "og:image",
-    content: "https://tsukuha.github.io/v_tokyo20/img/v_tokyo.png",
+    content: "https://tsukuha.github.io/v_tokyo_fec_collaboration/img/v_tokyo.png",
   },
 ] as const satisfies OgMeta[]
 
