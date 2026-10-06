@@ -56,7 +56,7 @@ const OG_META = [
   }
 
   for (const { name, content } of OG_META) {
-    const meta = new HTMLElement("meta", {}, `name=${name} content="${content}"`)
+    const meta = new HTMLElement("meta", {}, `name="${name}" content="${content}"`)
     head.appendChild(meta)
   }
 
